@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Filmes - IFNMG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h5>Feito por Fabiano e Henrique</h5>
+    <div class="container">
+        <h1>Cadastro de Filmes - IFNMG</h1>
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" required>
+            
+            <label for="diretor">Diretor:</label>
+            <input type="text" id="diretor" required>
+            
+            <label for="ano">Ano de Lançamento:</label>
+            <input type="number" id="ano" required>
+            
+            <button onclick="addFilme()">Adicionar Filme</button>
+    </div>
+
+    <div class="lista-filmes">
+        <h2>Lista de Filmes</h2>
+        <p id="lista"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
